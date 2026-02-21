@@ -81,13 +81,13 @@ TEST(st1, sumPrime_2) {
 }
 
 TEST(st1, sumPrime_3) {
-    EXPECT_EQ(sumPrime(2), 0);
+  EXPECT_EQ(sumPrime(2), 0);
 }
 TEST(st1, sumPrime_4) {
   EXPECT_EQ(sumPrime(3), 2);
 }
 TEST(st1, sumPrime_5) {
-   EXPECT_EQ(sumPrime(40), 197);
+  EXPECT_EQ(sumPrime(40), 197);
 }
 TEST(st1, sumPrime_6) {
   EXPECT_EQ(sumPrime(100), 1060);
